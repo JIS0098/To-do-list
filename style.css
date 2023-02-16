@@ -40,7 +40,8 @@ body {
 .task{
     display: flex;
     justify-content: space-between;
-    padding: 1e;
+    padding: 1em;
+    border-bottom: 1px solid lightgray;
 }
 
 .input-area input{
@@ -63,4 +64,9 @@ body {
 
 .container h1{
     margin-top: 10px;
+}
+
+.text-line {
+    text-decoration-line: line-through;
+    font-size: 50px;
 }
