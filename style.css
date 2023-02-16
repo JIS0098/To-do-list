@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    background-color: #FFE0E6
+
+}
+.container{
+    background-color: white;
+    min-height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 0 1rem;
+    border-top: 18px solid #ffb1c0;
+    max-width: 800px;
+}
+
+.task-tabs{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+}
+
+.task-area{
+    border: 1px solid lightgray;
+    margin-top: 2em;
+}
+
+.task-tabs div {
+    padding: 1em 2em 1em 1.5em;
+}
+
+#under-line{
+    height: 4px;
+    background-color:#ffb1c0;
+    position: absolute;
+    width: 70px;
+    left: 0px;
+    top: 54px;
+    padding: 0px;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 1e;
+}
+
+.input-area input{
+    width: 80%;
+}
+
+.input-area input,button{
+    border: 1px solid #FFE0E6;
+}
+
+.input-area button{
+    background-color:#FFE0E6;
+}
+
+#top-line{
+    height: 20px;
+    background-color: #FFE0E6;
+    
+}
+
+.container h1{
+    margin-top: 10px;
+}
