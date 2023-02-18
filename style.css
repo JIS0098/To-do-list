@@ -25,6 +25,7 @@ body {
 
 .task-tabs div {
     padding: 1em 2em 1em 1.5em;
+    cursor:pointer;
 }
 
 #under-line{
@@ -42,7 +43,8 @@ body {
     justify-content: space-between;
     padding: 1em;
     border-bottom: 1px solid lightgray;
-}
+   
+}    
 
 .input-area input{
     width: 80%;
@@ -70,3 +72,7 @@ body {
     text-decoration-line: line-through;
     font-size: 50px;
 }
+.task-done{
+    text-decoration: line-through;    
+}
+
